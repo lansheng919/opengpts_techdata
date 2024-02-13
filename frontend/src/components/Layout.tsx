@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import logoImage from '../assets/logo.png'; // Adjust the path as necessary
 
 export function Layout(props: {
   sidebarOpen: boolean;
@@ -107,10 +108,13 @@ export function Layout(props: {
             "OpenGPTs"
           )}
         </div>
-        <div className="inline-flex items-center rounded-md bg-pink-100 px-2 py-1 text-xs font-medium text-pink-700">
-          Research Preview: this is unauthenticated and all data can be found.
-          Do not use with sensitive data
-        </div>
+        <a className="pr-4" href="https://www.techdatacloud.com.au" target="_blank" rel="noopener noreferrer">
+          <img src={logoImage} alt="Logo" href="www.example.com" className="h-10 w-auto rounded-lg shadow" />
+        </a>
+
+
+
+
       </div>
 
       <main className="pt-20 lg:pl-72 flex flex-col min-h-[calc(100%-56px)]">
