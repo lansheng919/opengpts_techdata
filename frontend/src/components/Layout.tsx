@@ -109,7 +109,7 @@ export function Layout(props: {
           )}
         </div>
         <a className="pr-4" href="https://www.techdatacloud.com.au" target="_blank" rel="noopener noreferrer">
-          <img src={logoImage} alt="Logo" href="www.example.com" className="h-auto w-auto rounded-lg shadow" />
+          <img src={logoImage} alt="Logo" href="www.example.com" className="h-14 w-auto rounded-lg shadow" />
         </a>
 
 
